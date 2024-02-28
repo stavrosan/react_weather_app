@@ -1,5 +1,9 @@
 ![alt text](./weather%20app.png)
 
+# API info
+* Method: GET
+* URL: https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Metric&appid=${api_key}
+
 
 # Getting Started with Create React App
 
