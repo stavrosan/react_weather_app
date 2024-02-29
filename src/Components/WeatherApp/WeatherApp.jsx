@@ -37,7 +37,7 @@ const WeatherApp = () => {
         wind[0].innerHTML= Math.floor(data.wind.speed)+" km/h";
         temperature[0].innerHTML= Math.floor(data.main.temp)+"°C";
         location[0].innerHTML= data.name;
-        description[0].innerHTML= data.weather[0].description;
+        description[0].innerHTML= (data.weather[0].description).charAt(0).toUpperCase()+(data.weather[0].description).slice(1);
 
         if (data.weather[0].icon==="01d" || data.weather[0].icon==="01n")
         {
