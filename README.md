@@ -1,5 +1,5 @@
 
-![alt text](./RecordingweatherApp.mp4)
+![alt text](./RecordingweatherApp.gif)
 
 # API info
 * Method: `GET`
